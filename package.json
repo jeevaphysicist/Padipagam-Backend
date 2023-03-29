@@ -1,25 +1,32 @@
 {
-  "name": "backend",
+  "name": "api",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-     "start": "node app.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jeevaphysicist/Amin_Backen.git"
+    "url": "git+https://github.com/jeevaphysicist/backend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jeevaphysicist/Amin_Backen/issues"
+    "url": "https://github.com/jeevaphysicist/backend/issues"
   },
-  "homepage": "https://github.com/jeevaphysicist/Amin_Backen#readme",
+  "homepage": "https://github.com/jeevaphysicist/backend#readme",
   "dependencies": {
-    "body-parser": "^1.20.1",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "bson": "^4.1.0",
+    "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3",
+    "nodemailer": "^6.9.1"
   }
 }
